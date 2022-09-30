@@ -1,25 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
+import { Routes, Route, Navigate, Outlet } from "react-router-dom";
+import Recipe from "./components/Recipes/recipe";
+// import Navbar from "./components/Navbar/navbar";
+import Login from "./components/Login/login.jsx";
+import SignUp from "./components/SignUp/signup.jsx";
+import { Homepage } from "./pages/Homepage/Homepage";
+// import Searchbar from "./components/Search/Search";
+// import { useState } from "react";
+
+// import { Form } from "react-bootstrap";
+
+
+const Layout = () => (
+  <>
+   {/* <Navbar /> */}
+   {/* <Searchbar /> */}
+  <Outlet />
+  </>
+)
+
+
 
 function App() {
-  return (
+
+  const user = true
+
+  return(
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route element={<Layout />}>
+      
+          <Route path="/" element={<Homepage />}></Route>
+          <Route path="/home" element={<Homepage/>}></Route>
+          <Route path="/login" element={<Login/>}></Route>
+          <Route path="/signup" element={<SignUp/>}></Route>
+          <Route path="/home/recipe" element={user ? <Recipe/> : <Navigate to="/login" />}></Route>
+        </Route>
+      </Routes>
     </div>
-  );
+    
+  
+
+    )
+
 }
 
 export default App;
+
+
+
+
+//  
