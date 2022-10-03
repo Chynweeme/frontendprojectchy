@@ -4,11 +4,11 @@ import "./login.css"
 
 export default function Login() {
   return (
-    <main>
-       <div className='picture'>
+    <main className='container flex flex-col'>
+       <div className='picture sm:hidden'>
         <div className='myname'> Chynwe's <br /> Recipe App</div>
         </div>   
-       <div className='login'>
+       <div className='login mx-auto'>
         
             <form>
             
@@ -27,7 +27,7 @@ export default function Login() {
               <a href="#">Forgot password?</a>
               </div>
 
-              <button>Log In</button>
+              <button className='w-full'>Log In</button>
               
             </form>
         </div> 

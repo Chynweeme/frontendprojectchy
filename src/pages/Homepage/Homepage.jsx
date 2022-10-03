@@ -12,7 +12,7 @@ import Footer from '../../components/Footer/footer'
 export const Homepage = () => {
   return (
     <>
-      {/* <Searchbar /> */}
+      <Searchbar />
       <Hero />
       <Recipe />
       <Footer /> 

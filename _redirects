@@ -1,0 +1,5 @@
+# Redirects from what the browser requests to what we serve
+/home              /
+/home/recipe.jsx  /home/recipe
+/login              /login
+/signup             /signup

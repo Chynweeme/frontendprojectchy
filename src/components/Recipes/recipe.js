@@ -16,7 +16,7 @@ export default function Recipe(){
                             <p className=''>Tag: Nigerian Dish</p>
                             <p className=''>Description: Wash ya goatmeat....
                             </p>
-                            <a href="#" className='text-brightRed mb-2'>Continue reading</a>
+                            <a href="#" className='text-brightRed mb-2 underline'>Continue reading</a>
                         </div>
                     </div>
                     <div className='container w-full h-96 md:w-1/3 border border-brightRed mr-3 mb-3 rounded-xl drop-shadow-2xl'>
@@ -26,7 +26,7 @@ export default function Recipe(){
                             <p className=''>Tag: Nigerian Dish</p>
                             <p className=''>Description: Wash ya beans....
                             </p>
-                            <a href="#" className='text-brightRed mb-2'>Continue reading</a>
+                            <a href="#" className='text-brightRed mb-2 underline'>Continue reading</a>
                         </div>
                     </div>
                     <div className='container w-full h-96 md:w-1/3 border border-brightRed mb-3 rounded-xl drop-shadow-2xl'>
@@ -36,7 +36,7 @@ export default function Recipe(){
                             <p className=''>Tag: English Dish</p>
                             <p className=''>Description: Get your flour....
                             </p>
-                            <a href="#" className='text-brightRed mb-2'>Continue reading</a>
+                            <a href="#" className='text-brightRed mb-2 underline'>Continue reading</a>
                         </div>
                     </div>
                 </div>

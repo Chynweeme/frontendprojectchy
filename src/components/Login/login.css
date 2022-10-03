@@ -22,9 +22,9 @@ display: flex;
 }
 
 .myname{
-    margin-left: 50px;
-    margin-top: 250px;
-    font-size: 150px;
+    margin-left: 20px;
+    margin-top: 200px;
+    font-size: 100px;
     text-align: center;
     
 }
@@ -108,7 +108,7 @@ input{
 
 button{
     margin-top: 50px;
-    width: 105%;
+    width: 100%;
     background-color: #fa4513;
     color: #ffff;
     padding: 15px 0;
