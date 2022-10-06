@@ -1,4 +1,12 @@
 .footer{
     width: 100vw;
     height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-details{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
 }

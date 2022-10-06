@@ -9,32 +9,51 @@ display: flex;
 }
 
 .picture{
-    background-image: url(../../../pictures/jellofrice.jpg);
-    width: 50%;
+     background-image: url(../LoginPicture/new-background.jpg);
+     background-size: cover;
+     font-family: 'Dancing Script', cursive;
+   /* width: 50%;
     height: 100vh;
-    background-size: cover;
     background-repeat: repeat-x;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+ */
+    
 }
 
 .login{
-    margin-left: 200px;
+    width: 70%;
+    /* margin-left:25%; */
+}
+
+.myname{
+    margin-left: 20px;
+    margin-top: 200px;
+    font-size: 100px;
+    text-align: center;
+    
 }
 
 
-form{
+
+.mylogo{
+    width: 200px;
+    height: 200px;
+    margin-left: 25%;
+}
+
+/* form{
     height: 520px;
     width: 400px;
-    /* background-color: rgba(169, 95, 21, 0.544); */
     position: relative;
     transform: translate(-50%,-50%);
     top: 40%;
     left: 50%;
     border-radius: 10px;
-    /* backdrop-filter: blur(0px); */
-    /* border: 2px solid rgba(255,255,255,0.1); */
-    /* box-shadow: 0 0 40px rgba(219, 56, 7, 0.1); */
+   
     padding: 50px 35px;
-}
+} */
 form *{
     font-family: 'Montserrat', sans-serif;
     color: black;
@@ -46,17 +65,15 @@ form h3{
     font-size: 32px;
     font-weight: 500;
     line-height: 42px;
-    text-align: center;
+    /* text-align: center; */
 }
 
-.formlogo{
+/* .formlogo{
     background-image: url(../../../pictures/emojione-v1_pot-of-food.png);
-    background-repeat: no-repeat;
-    width: 150px;
-    height: 150px;
-    margin-left: 100px;
-    background-size: contain;
-}
+    width: 200px;
+    height: 200px;
+    margin-left: 70px;
+} */
 
 label{
     display: block;
@@ -76,7 +93,7 @@ input{
     font-weight: 300;
 }
 ::placeholder{
-    color: #d43c3c5b;
+    color: #c034349b;
 }
 
 .role{
@@ -106,7 +123,7 @@ input{
 
 button{
     margin-top: 30px;
-    width: 105%;
+    width: 80%;
     background-color: #fa4513;
     color: #ffff;
     padding: 15px 0;
